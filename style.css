@@ -1,0 +1,67 @@
+body {
+  font-family: "Manrope", sans-serif;
+  color: #3F3F3F;
+  font-weight: 400;
+  font-size: 0.88rem;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0px auto;
+}
+.header {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_left, .header_center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_hr {
+  height: 26px;
+  margin: 0px 23px 0px 29px;
+  border: 1px solid #3F3F3F;
+}
+.header_map {
+  border: 6px solid #FFFFFF;
+  border-radius: 100%;
+  margin-right: 12px;
+  box-shadow: 0 14px 54px 0 rgba(0, 0, 0, 0.08);
+}
+.citi {
+  width: 130px;
+}
+.header_right {
+  display: flex;
+  padding: 11px 25px 10px 13px;
+  border-radius: 35px;
+  box-shadow: 0 14px 54px 0 rgba(0, 0, 0, 0.08);
+}
+.phone {
+  background: #E21F4D;
+  padding: 9px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.num {
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 100%;
+}
+.red {
+  font-weight: 700;
+  color: #e21f4d;
+}
+.time {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.62rem;
+  color: #767676;
+}
+.time span {
+  margin-right: 6px;
+}
